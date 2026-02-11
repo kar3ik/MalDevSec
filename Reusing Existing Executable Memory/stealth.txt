@@ -1,0 +1,5 @@
+📊 TECHNIQUES COMPARISON
+Technique	     Execution Trigger	        Stealth	    Complexity	        Detection
+TLS Callback	Process/Thread attach	    Very High	Medium	            PE header scanning
+Return Address	Function return	            Medium	     Low	            Stack walking
+Callback Abuse	API call completion	        High          Low	            API monitoring

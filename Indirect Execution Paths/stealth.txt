@@ -1,0 +1,6 @@
+📊 TECHNIQUES COMPARISON
+Technique	        Execution Trigger	        Stealth	        Complexity	    Detection
+SEH Hijacking	    Exception (NULL deref)	    Medium	        Low	        SEH chain walking
+VEH Hijacking	    Any exception	            High	        Low	        VEH list inspection
+Timer Queue (Patch)	Timer expiration	        High	        Medium	    Memory scanning
+Timer Queue (Param)	Timer expiration	        Very High	    Low	        Legitimate API use

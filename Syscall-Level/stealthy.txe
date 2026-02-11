@@ -1,0 +1,9 @@
+📊 FIXED TABLE - CORRECTED:
+Technique	        Detectability	                    Complexity	Syscall in Code	EDR Bypass
+Direct Syscall	    🟡 MEDIUM (Often detected)	        Low	        YES	    Good
+Syscall Stomping	🟠 HIGH (Hard to detect)	        Medium	    NO	    Excellent
+Heaven's Gate	    🟢 LOW (Easy to detect!)	        Medium	    YES	    Excellent (32/64)
+HalosGate	        🟡 MEDIUM (Sometimes detected)	    Medium	    YES	    Excellent (hooked)
+FreshyCalls	        🔵 VERY HIGH (Very stealthy)	    High	    NO	    Perfect
+Indirect Syscall	🟠 HIGH (Stealthy)	                Medium	    NO	    Excellent
+Shadow Stack Bypass	🔵 VERY HIGH (Most stealthy)	    High	    NO	    Perfect (CET)
